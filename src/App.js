@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { IconName } from "react-icons/ci";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="head-container">
+        <div class="logo">
+          <header class="name"> Elif Gazioglu</header>
+        </div>
+      </div>
+      <div class="menu-container">
+        <h1 class="menu-name">
+          Elif
+          <br />
+          Gazioglu
+        </h1>
+        <p1>Software Developer</p1>
+        <div class="icons">
+          <ul class="social-icons">
+            <li class="inline-list">a</li>
+            <li class="inline-list">b</li>
+            <li class="inline-list">c</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
