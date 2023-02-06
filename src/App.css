@@ -1,18 +1,39 @@
 .head-container{
-  border: 1px solid black;
+  border: 1px solid white;
   height: 80px;
+  background-color: rgb(240, 157, 171);
 }
 
 .name{
-  font-weight: 100;
+  font-weight: 150;
+  font-size: 20px;
   margin: 30px;
   margin-left: 75px;
-  color: rgb(242, 78, 105);
+  color: white;
 }
 
+.larger-header{
+  font-size: 40px;
+}
 .menu-container{
   margin-left: 2cm;
   margin-top: 2cm;
   color: rgb(240, 157, 171);
 }
+
+.social-icons{
+  display: inline-block;
+  margin-right: 50px;
+
+}
+
+a{
+  color: rgb(240, 157, 171);
+  font-size: 20px;
+}
+
+a:hover{
+  color: rgb(253, 195, 205);
+}
+
 

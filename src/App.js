@@ -1,7 +1,11 @@
 import "./App.css";
-import { IconName } from "react-icons/ci";
+import { SiLinkedin, SiInstagram, SiGithub } from "react-icons/si";
+
+import React, { useState } from "react";
 
 function App() {
+  const [state, setState] = useState(false);
+  let url = "https://www.linkedin.com/in/elif-gazioglu";
   return (
     <div className="App">
       <div class="head-container">
@@ -10,17 +14,19 @@ function App() {
         </div>
       </div>
       <div class="menu-container">
-        <h1 class="menu-name">
+        <h1 class="larger-header">
           Elif
           <br />
           Gazioglu
         </h1>
         <p1>Software Developer</p1>
         <div class="icons">
-          <ul class="social-icons">
-            <li class="inline-list">a</li>
-            <li class="inline-list">b</li>
-            <li class="inline-list">c</li>
+          <ul class="list-inline">
+            <li class="social-icons">
+              <a href={url} target="_blank"><SiLinkedin></SiLinkedin></a>
+            </li>
+            <li class="social-icons"><SiInstagram></SiInstagram></li>
+            <li class="social-icons"><SiGithub></SiGithub></li>
           </ul>
         </div>
       </div>
