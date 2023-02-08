@@ -13,27 +13,46 @@
 }
 
 .larger-header{
-  font-size: 40px;
+  font-size: 60px;
+  margin: 5px;
+  margin-left: 1cm;
 }
+
+.larger-paragraph{
+  font-size: 25px;
+  margin-left: 1cm;
+}
+
 .menu-container{
   margin-left: 2cm;
-  margin-top: 2cm;
+  margin-top: 4cm;
   color: rgb(240, 157, 171);
 }
 
-.social-icons{
+li{
   display: inline-block;
   margin-right: 50px;
-
+  border-radius: 10px;
 }
+
 
 a{
   color: rgb(240, 157, 171);
-  font-size: 20px;
+  font-size: 25px;
+  margin-left:1cm;
 }
 
 a:hover{
   color: rgb(253, 195, 205);
+}
+
+img{
+  margin-top: 2cm;
+}
+
+.about-header{
+  color: rgb(240, 157, 171);
+  
 }
 
 
