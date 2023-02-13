@@ -40,6 +40,7 @@ a{
   color: rgb(240, 157, 171);
   font-size: 25px;
   margin-left:1cm;
+  text-decoration: none;
 }
 
 a:hover{
@@ -47,12 +48,37 @@ a:hover{
 }
 
 img{
-  margin-top: 2cm;
+  margin-top: 1cm;
+  max-width: 50%;
+  width: 50%;
+  width: 700px;
+  height: 300px;
 }
 
 .about-header{
   color: rgb(240, 157, 171);
-  
+}
+
+.about-container{
+  display: flex;
+  align-items: center;
+  margin-left: 1cm;
+  margin-right: 1cm;
+}
+
+.about-h1-p1-container{
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+
+.about-paragraph{
+  color: rgb(253, 195, 205);
+  margin-left: 30px;
+}
+
+.download-cv-tag{
+  font-size: 25px;
+  margin-top: 3cm;
 }
 
 

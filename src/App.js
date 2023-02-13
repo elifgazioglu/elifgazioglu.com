@@ -1,12 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import "./App.css";
 import { SiLinkedin, SiInstagram, SiGithub } from "react-icons/si";
 import image1 from "./images/image1.JPG";
 
-import React, { useState } from "react";
-
 function App() {
-  const [state, setState] = useState(false);
   return (
     <div className="App">
       <div
@@ -57,16 +55,26 @@ function App() {
         </div>
       </div>
       <div class="about-container">
-        <div style={{ display: 'flex', alignItems: 'center' }}>
-        <img
-          src={image1}
-          alt="Image 1"
-          style={{ width: "700px", height: "300px" }}
-        ></img>
-        <h1 class="about-header">About Me</h1>
+        <img src={image1} alt="Image 1"></img>
+        <div class="about-h1-p1-container">
+          <h1 class="about-header">About Me</h1>
+          <p1 class="about-paragraph">
+            Yaşam her zaman zorlu ve değişken bir yolculuktur. Herkes kendine
+            özgü zorluklarla ve fırsatlarla karşı karşıya kalır. Ancak,
+            zorluklarla başa çıkmak ve fırsatları değerlendirmek için güçlü bir
+            karakter ve azim gerekir. Aynı zamanda insanlar arasındaki
+            bağlantılar ve destek de hayatı kolaylaştıran önemli faktörlerdir.
+            <br></br>
+            <br></br>
+            <br></br>
+            Herkesin hayatındaki engelleri aşması ve amaçlarına ulaşması için
+            yardımlaşması ve birbirlerine destek olması gerekir.
+          </p1>
         </div>
       </div>
+      <a href="Elif Gazioglu CV.pdf" target="_blank" class="download-cv-tag">Download My CV</a>
     </div>
+    
   );
 }
 
