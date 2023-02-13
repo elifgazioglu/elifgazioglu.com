@@ -3,6 +3,7 @@
 import "./App.css";
 import { SiLinkedin, SiInstagram, SiGithub } from "react-icons/si";
 import image1 from "./images/image1.JPG";
+import image2 from "./images/image2.JPG";
 
 function App() {
   return (
@@ -73,6 +74,8 @@ function App() {
         </div>
       </div>
       <a href="Elif Gazioglu CV.pdf" target="_blank" class="download-cv-tag">Download My CV</a>
+      <br></br>
+      <img class="image-2"src={image2} alt="Image 2"></img>
     </div>
     
   );
