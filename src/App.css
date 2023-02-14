@@ -1,90 +1,113 @@
-.head-container{
-  border: 1px solid white;
-  height: 80px;
-  background-color: rgb(240, 157, 171);
-}
+  .head-container {
+    border: 1px solid white;
+    height: 80px;
+    background-color: rgb(240, 157, 171);
+  }
 
-.name{
-  font-weight: 150;
-  font-size: 20px;
-  margin: 30px;
-  margin-left: 75px;
-  color: white;
-}
+  .name {
+    font-weight: 150;
+    font-size: 20px;
+    margin: 30px;
+    margin-left: 75px;
+    color: white;
+  }
 
-.larger-header{
-  font-size: 60px;
-  margin: 5px;
-  margin-left: 1cm;
-}
+  .larger-header {
+    font-size: 60px;
+    margin: 5px;
+    margin-left: 1cm;
+  }
 
-.larger-paragraph{
-  font-size: 25px;
-  margin-left: 1cm;
-}
+  .larger-paragraph {
+    font-size: 25px;
+    margin-left: 1cm;
+  }
 
-.menu-container{
-  margin-left: 2cm;
-  margin-top: 4cm;
-  color: rgb(240, 157, 171);
-}
+  .menu-container {
+    margin-left: 2cm;
+    margin-top: 4cm;
+    color: rgb(240, 157, 171);
+  }
 
-li{
-  display: inline-block;
-  margin-right: 50px;
-  border-radius: 10px;
-}
-
-
-a{
-  color: rgb(240, 157, 171);
-  font-size: 25px;
-  margin-left:1cm;
-  text-decoration: none;
-}
-
-a:hover{
-  color: rgb(253, 195, 205);
-}
-
-img{
-  margin-top: 1cm;
-  max-width: 50%;
-  width: 50%;
-  width: 700px;
-  height: 300px;
-}
-
-.about-header{
-  color: rgb(240, 157, 171);
-}
-
-.about-container{
-  display: flex;
-  align-items: center;
-  margin-left: 1cm;
-  margin-right: 1cm;
-}
-
-.about-h1-p1-container{
-  margin-left: 2cm;
-  margin-right: 2cm;
-}
-
-.about-paragraph{
-  color: rgb(253, 195, 205);
-  margin-left: 30px;
-}
-
-.download-cv-tag{
-  font-size: 25px;
-  margin-top: 3cm;
-}
-
-.image-2{
-  display: block;
-  margin-left: auto;
-  margin-right: 1cm;
-}
+  li {
+    display: inline-block;
+    margin-right: 50px;
+    border-radius: 10px;
+  }
 
 
+  a {
+    color: rgb(240, 157, 171);
+    font-size: 25px;
+    margin-left: 1cm;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(255, 228, 233);
+  }
+
+  .image-1 {
+    margin-top: 10px;
+    max-width: 90%;
+    width: 90%;
+    width: 9000px;
+    height: 300px;
+  }
+
+  .image-2 {
+    margin-top: 15px;
+    max-width: 90%;
+    width: 90%;
+    width: 550px;
+    height: 300px;
+    margin-right: 40px;
+    float: right;
+  }
+
+  .about-header {
+    color: rgb(240, 157, 171);
+  }
+
+  .about-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1cm;
+    margin-right: 1cm;
+  }
+
+  .about-img-container {
+    width: 3000px;
+  }
+
+  .about-paragraph {
+    color: rgb(253, 195, 205);
+    margin-left: 10px;
+  }
+
+  .download-cv-tag {
+    font-size: 25px;
+    color: white;
+    margin-top: 3cm;
+    border: 2px solid rgb(240, 157, 171);
+    background-color: rgb(240, 157, 171);
+    border-radius: 8px;
+  }
+
+  @media (max-width: 768px) {
+
+    .about-img-container {
+      width: 6000px;
+      height: 300px;
+      margin-top: -40cm;
+    }
+
+    .about-h1-p1-container {
+      margin-top: 10cm;
+      margin-bottom: 2cm;
+      margin-left: 1cm;
+      margin-right: 0;
+    }
+  }
+
+  

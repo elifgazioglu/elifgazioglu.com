@@ -7,7 +7,7 @@ import image2 from "./images/image2.JPG";
 
 function App() {
   return (
-    <div className="App">
+    <div class="App">
       <div
         class="head-container"
         style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 1 }}
@@ -56,7 +56,9 @@ function App() {
         </div>
       </div>
       <div class="about-container">
-        <img src={image1} alt="Image 1"></img>
+        <div class="about-img-container">
+          <img class="image-1" src={image1} alt="Image 1"></img>
+        </div>
         <div class="about-h1-p1-container">
           <h1 class="about-header">About Me</h1>
           <p1 class="about-paragraph">
@@ -67,17 +69,24 @@ function App() {
             bağlantılar ve destek de hayatı kolaylaştıran önemli faktörlerdir.
             <br></br>
             <br></br>
-            <br></br>
             Herkesin hayatındaki engelleri aşması ve amaçlarına ulaşması için
             yardımlaşması ve birbirlerine destek olması gerekir.
           </p1>
+          <br></br>
+          <br></br>
+          <a
+            href="Elif Gazioglu CV.pdf"
+            target="_blank"
+            class="download-cv-tag"
+          >
+            Download My CV
+          </a>
         </div>
       </div>
-      <a href="Elif Gazioglu CV.pdf" target="_blank" class="download-cv-tag">Download My CV</a>
       <br></br>
-      <img class="image-2"src={image2} alt="Image 2"></img>
+      <br></br>
+      <img class="image-2" src={image2} alt="Image 2"></img>
     </div>
-    
   );
 }
 
