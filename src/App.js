@@ -85,7 +85,28 @@ function App() {
       </div>
       <br></br>
       <br></br>
-      <img class="image-2" src={image2} alt="Image 2"></img>
+      <div class="skill-container">
+        <div class="skill-bar-container">
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style={{ width: "70%" }}>
+              <span class="skill-bar-label">React</span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style={{ width: "40%" }}>
+              <span class="skill-bar-label">JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style={{ width: "50%" }}>
+              <span class="skill-bar-label">C++</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-img-container">
+          <img class="image-2" src={image2} alt="Image 2"></img>
+        </div>
+      </div>
     </div>
   );
 }

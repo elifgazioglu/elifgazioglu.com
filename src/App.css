@@ -57,11 +57,10 @@
 
   .image-2 {
     margin-top: 15px;
-    max-width: 90%;
-    width: 90%;
+    max-width: 70%;
+    width: 70%;
     width: 550px;
     height: 300px;
-    margin-right: 40px;
     float: right;
   }
 
@@ -94,20 +93,97 @@
     border-radius: 8px;
   }
 
+  .skill-bar{
+    width: 100%;
+    background-color: rgb(255, 228, 233);
+    height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .skill-bar-fill{
+    height: 100%;
+    background-color: rgb(240, 157, 171);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: width 0.5s ease-in-out;
+  }
+
+  .skill-bar-label{
+    color: white;
+    font-weight: 200;
+    padding: 0 10px;
+  }
+
+  .skill-container{
+    display: flex;
+    
+  }
+
+  .skill-bar-container{
+    width: 150px;
+  }
+
+  .skill-img-container {
+    width: 90%;
+  }
+
   @media (max-width: 768px) {
+    .about-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+   .skill-img-container {
+      display: flex;
+      flex-direction: column;
+    }  
+
+    .image-2 {
+      max-width: 90%;
+      width: 90%;
+      width: 3000px;
+      height: 300px;
+      margin-left: 40px;
+    }
 
     .about-img-container {
-      width: 6000px;
+      max-width: 120%;
+      width: 120%;
+      width: 3000px;
       height: 300px;
-      margin-top: -40cm;
+      margin-left: 80px;
+    }
+
+    li {
+      display: inline-block;
+      margin-right: 40px;
+      margin-left: -40px;
+    }
+
+    .larger-header {
+      margin: 0 auto;
+    }
+
+    .larger-paragraph {
+      margin: 0 auto;
+    }
+
+    .download-cv-tag {
+      margin-left: 1cm;
+    }
+
+    .App {
+      width: 90%;
+    }
+
+    .about-header {
+      margin-left: 10px;
     }
 
     .about-h1-p1-container {
-      margin-top: 10cm;
-      margin-bottom: 2cm;
-      margin-left: 1cm;
-      margin-right: 0;
+      margin-left: 30px;
+      margin-top: 10px;
     }
-  }
 
-  
+  }
