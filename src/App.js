@@ -3,8 +3,9 @@
 import "./App.css";
 import { SiLinkedin, SiInstagram, SiGithub } from "react-icons/si";
 import image1 from "./images/image1.JPG";
-import image2 from "./images/image2.JPG";
-import image3 from "./images/image3.GIF";
+import image2 from "./images/image2.GIF";
+import image4 from "./images/image4.png";
+import image5 from "./images/image5.GIF";
 
 function App() {
   return (
@@ -108,22 +109,16 @@ function App() {
         <img class="image-2" src={image2} alt="Image 2"></img>
       </div>
       <div class="experience-container">
-        <img class="image-3" src={image3} alt="Image 3"></img>
-        <div class="experience-h1-p1-container">
+        <div class="experience-h1-img">
           <h1 class="experience-header">Experience</h1>
-          <p1 class="experience-paragraph">
-            Üniversitede birinci sınıf öğrencisiyken, aynı zamanda bir parti
-            zamanı Bilgisayar Mühendisliği öğrencisi olarak Veri Yönetim
-            Ofisi'nde çalışıyordum. Bu fırsat, hem okulda öğrendiklerimi
-            pratikte uygulamama hem de iş deneyimi edinmeme yardımcı oldu.
-            <br></br>
-
-            <br></br>
-            Ayrıca, çalıştığım ofis, teknoloji alanındaki yenilikler ve
-            gelişmeler hakkında güncel bilgiler edinmemi sağladı. Bu deneyim,
-            hem akademik başarılarımı hem de gelecekteki iş kariyerimi
-            şekillendirmede büyük rol oynadı.
-          </p1>
+          <img class="image-5" src={image5} alt="Image 5"></img>
+        </div>
+        <div class="experience-h1-p1">
+          <h4>Ataturk Universitesi Veri Yonetim Ofisi</h4>
+          <img class="image-4"src={image4} alt="Image 4"></img>
+          <br></br>
+          <br></br>
+          <p3>I worked part-time for one year as a computer engineering student at a data management office.</p3>
         </div>
       </div>
     </div>
