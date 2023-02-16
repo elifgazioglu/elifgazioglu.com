@@ -4,6 +4,7 @@ import "./App.css";
 import { SiLinkedin, SiInstagram, SiGithub } from "react-icons/si";
 import image1 from "./images/image1.JPG";
 import image2 from "./images/image2.JPG";
+import image3 from "./images/image3.GIF";
 
 function App() {
   return (
@@ -87,6 +88,7 @@ function App() {
       <br></br>
       <div class="skill-container">
         <div class="skill-bar-container">
+          <h1 class="skill-header">My Skills</h1>
           <div class="skill-bar">
             <div class="skill-bar-fill" style={{ width: "70%" }}>
               <span class="skill-bar-label">React</span>
@@ -103,8 +105,25 @@ function App() {
             </div>
           </div>
         </div>
-        <div class="skill-img-container">
-          <img class="image-2" src={image2} alt="Image 2"></img>
+        <img class="image-2" src={image2} alt="Image 2"></img>
+      </div>
+      <div class="experience-container">
+        <img class="image-3" src={image3} alt="Image 3"></img>
+        <div class="experience-h1-p1-container">
+          <h1 class="experience-header">Experience</h1>
+          <p1 class="experience-paragraph">
+            Üniversitede birinci sınıf öğrencisiyken, aynı zamanda bir parti
+            zamanı Bilgisayar Mühendisliği öğrencisi olarak Veri Yönetim
+            Ofisi'nde çalışıyordum. Bu fırsat, hem okulda öğrendiklerimi
+            pratikte uygulamama hem de iş deneyimi edinmeme yardımcı oldu.
+            <br></br>
+
+            <br></br>
+            Ayrıca, çalıştığım ofis, teknoloji alanındaki yenilikler ve
+            gelişmeler hakkında güncel bilgiler edinmemi sağladı. Bu deneyim,
+            hem akademik başarılarımı hem de gelecekteki iş kariyerimi
+            şekillendirmede büyük rol oynadı.
+          </p1>
         </div>
       </div>
     </div>

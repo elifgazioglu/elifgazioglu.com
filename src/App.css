@@ -57,11 +57,20 @@
 
   .image-2 {
     margin-top: 15px;
-    max-width: 70%;
-    width: 70%;
-    width: 550px;
+    max-width: 60%;
+    width: 60%;
+    width: 700px;
     height: 300px;
-    float: right;
+    margin-right: -4cm;
+  }
+
+  .image-3{
+    margin-top: 15px;
+    max-width:60%;
+    width:60%;
+    width: 600px;
+    height:400px;
+    margin:40px;
   }
 
   .about-header {
@@ -117,16 +126,39 @@
 
   .skill-container{
     display: flex;
-    
+    align-items: center;
+    margin-left: 1cm;
+    margin-right: 1cm;
   }
 
   .skill-bar-container{
-    width: 150px;
+    max-width: 45%;
+    width: 45%;
+    margin-right: 1cm;
   }
 
-  .skill-img-container {
-    width: 90%;
+  .skill-header, h1{
+    color: rgb(240, 157, 171);
+    margin-left: 1cm;
   }
+
+  .experience-container{
+    display: flex;
+  }
+
+  .experience-header{
+    margin-top: 40px;
+  }
+
+  .experience-paragraph{
+    color: rgb(253, 195, 205);
+  }
+
+  .experience-h1-p1-container{
+    margin: auto;
+
+  }
+
 
   @media (max-width: 768px) {
     .about-container {
@@ -134,17 +166,26 @@
       flex-direction: column;
     }
 
-   .skill-img-container {
+   .skill-container {
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
     }  
 
+    .skill-header{
+      margin-left: 80px;
+    }
+
+    .skill-bar-container{
+      max-width: 110%;
+      width: 110%;
+      margin-left: 2cm;
+    }
+
     .image-2 {
-      max-width: 90%;
-      width: 90%;
-      width: 3000px;
-      height: 300px;
-      margin-left: 40px;
+      max-width: 100%;
+      width: 100%;
+      margin-right: 0%;
+      margin-left: 1cm;
     }
 
     .about-img-container {
@@ -178,7 +219,7 @@
     }
 
     .about-header {
-      margin-left: 10px;
+      margin-left: 35px;
     }
 
     .about-h1-p1-container {
