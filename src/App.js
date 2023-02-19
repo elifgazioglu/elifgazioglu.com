@@ -118,7 +118,7 @@ function App() {
           <img class="image-5" src={image5} alt="Image 5"></img>
         </div>
         <div class="experience-h1-p1">
-          <h4>Ataturk Universitesi Veri Yonetim Ofisi</h4>
+          <h4>Ataturk University Data Management Office</h4>
           <img class="image-4" src={image4} alt="Image 4"></img>
           <br></br>
           <br></br>
