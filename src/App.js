@@ -70,7 +70,7 @@ function App() {
             this field.
             <br></br>
             <br></br>
-            Throughout my academic career, I have acquired
+             Throughout my academic career, I have acquired
             proficiency in several programming languages and broadened my
             knowledge in various domains. However, it is in the realm of web
             programming where my aptitude shines the most. As I set my sights on
