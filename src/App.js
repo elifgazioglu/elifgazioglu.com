@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import "./App.css";
 import { SiLinkedin, SiInstagram, SiGithub } from "react-icons/si";
+import { CiMail } from "react-icons/ci";
 import image1 from "./images/image1.JPG";
 import image2 from "./images/image2.GIF";
 import image4 from "./images/image4.png";
@@ -70,13 +71,12 @@ function App() {
             this field.
             <br></br>
             <br></br>
-             Throughout my academic career, I have acquired
-            proficiency in several programming languages and broadened my
-            knowledge in various domains. However, it is in the realm of web
-            programming where my aptitude shines the most. As I set my sights on
-            new challenges and objectives in this field, I invite you to join me
-            on my journey by exploring my GitHub projects or downloading my
-            updated CV.
+            Throughout my academic career, I have acquired proficiency in
+            several programming languages and broadened my knowledge in various
+            domains. However, it is in the realm of web programming where my
+            aptitude shines the most. As I set my sights on new challenges and
+            objectives in this field, I invite you to join me on my journey by
+            exploring my GitHub projects or downloading my updated CV.
           </p1>
           <br></br>
           <br></br>
@@ -127,6 +127,37 @@ function App() {
             a data management office.
           </p3>
         </div>
+      </div>
+      <br></br>
+      <div class="contact-container">
+        <h1 class="contact-header">Contact Me</h1>
+        <p1 class="contact-paragraph">
+          Using the information below, you can get in touch with me
+        </p1>
+        <br></br>
+        <br></br>
+        <a
+          class="mail-tag"
+          href="mailto:elifgazioglu0@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <CiMail></CiMail>
+          elifgazioglu0@gmail.com
+        </a>
+        <br></br>
+        <a
+          class="mail-tag"
+          href="mailto:elifhusna.gazioglu21@ogr.atauni.edu.tr"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <CiMail></CiMail>
+          elifhusna.gazioglu21@ogr.atauni.edu.tr
+        </a>
+        <br></br>
+        <br></br>
+        <br></br>
       </div>
     </div>
   );
