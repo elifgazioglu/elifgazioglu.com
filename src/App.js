@@ -64,15 +64,19 @@ function App() {
         <div class="about-h1-p1-container">
           <h1 class="about-header">About Me</h1>
           <p1 class="about-paragraph">
-            Yaşam her zaman zorlu ve değişken bir yolculuktur. Herkes kendine
-            özgü zorluklarla ve fırsatlarla karşı karşıya kalır. Ancak,
-            zorluklarla başa çıkmak ve fırsatları değerlendirmek için güçlü bir
-            karakter ve azim gerekir. Aynı zamanda insanlar arasındaki
-            bağlantılar ve destek de hayatı kolaylaştıran önemli faktörlerdir.
+            My name is Elif, and I am a second-year student studying Computer
+            Engineering at Ataturk University. My passion for computer
+            engineering has grown exponentially since embarking on my studies in
+            this field.
             <br></br>
             <br></br>
-            Herkesin hayatındaki engelleri aşması ve amaçlarına ulaşması için
-            yardımlaşması ve birbirlerine destek olması gerekir.
+            Throughout my academic career, I have acquired
+            proficiency in several programming languages and broadened my
+            knowledge in various domains. However, it is in the realm of web
+            programming where my aptitude shines the most. As I set my sights on
+            new challenges and objectives in this field, I invite you to join me
+            on my journey by exploring my GitHub projects or downloading my
+            updated CV.
           </p1>
           <br></br>
           <br></br>
@@ -92,7 +96,7 @@ function App() {
           <h1 class="skill-header">My Skills</h1>
           <div class="skill-bar">
             <div class="skill-bar-fill" style={{ width: "70%" }}>
-              <span class="skill-bar-label">React</span>
+              <span class="skill-bar-label">React.js</span>
             </div>
           </div>
           <div class="skill-bar">
@@ -115,10 +119,13 @@ function App() {
         </div>
         <div class="experience-h1-p1">
           <h4>Ataturk Universitesi Veri Yonetim Ofisi</h4>
-          <img class="image-4"src={image4} alt="Image 4"></img>
+          <img class="image-4" src={image4} alt="Image 4"></img>
           <br></br>
           <br></br>
-          <p3>I worked part-time for one year as a computer engineering student at a data management office.</p3>
+          <p3>
+            I worked part-time for one year as a computer engineering student at
+            a data management office.
+          </p3>
         </div>
       </div>
     </div>

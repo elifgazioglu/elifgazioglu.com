@@ -106,6 +106,7 @@
   .about-paragraph {
     color: rgb(253, 195, 205);
     margin-left: 10px;
+    font-size: 14px;
   }
 
   .download-cv-tag {
@@ -164,7 +165,7 @@
 
   .experience-header {
     color: rgb(240, 157, 171);
-    margin-left: 80px;
+    margin-left: 120px;
   }
 
   .experience-h1-img {
