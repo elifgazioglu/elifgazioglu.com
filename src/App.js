@@ -9,6 +9,8 @@ import image4 from "./images/image4.png";
 import image5 from "./images/image5.GIF";
 
 function App() {
+  const pdfPath = "/pdfs/ElifGaziogluCV.pdf";
+
   return (
     <div class="App">
       <div
@@ -81,12 +83,15 @@ function App() {
           <br></br>
           <br></br>
           <a
-            href="Elif Gazioglu CV.pdf"
+            href={pdfPath}
             target="_blank"
             class="download-cv-tag"
+            rel="noreferrer"
           >
             Download My CV
           </a>
+          
+          
         </div>
       </div>
       <br></br>
