@@ -90,8 +90,6 @@ function App() {
           >
             Download My CV
           </a>
-          
-          
         </div>
       </div>
       <br></br>
@@ -107,6 +105,11 @@ function App() {
           <div class="skill-bar">
             <div class="skill-bar-fill" style={{ width: "40%" }}>
               <span class="skill-bar-label">JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style={{ width: "56%" }}>
+              <span class="skill-bar-label">Node.js</span>
             </div>
           </div>
           <div class="skill-bar">
