@@ -1,7 +1,4 @@
-# elifgazioglu.com
-
-Personal website
-
+# My personal website 💁🏻‍♀️🌸
 
 ## Frontend
 
